@@ -1,157 +1,163 @@
-The following operations are designed for practical scenarios on Windows systems.
-macOS users can easily implement this by installing Windows through Parallels Desktop (PD) virtual machine. Performing operations in a virtual environment helps prevent potential risks from AI misoperations.
 
-## I. Features:
-### Practical applications of PowerShell in office scenarios:
+以下是针对Windows系统实践场景的操作。
+macOS通过PD虚拟机安装Windows即可轻松实现，将操作放到虚拟环境能够防止一些AI误操作风险。
 
-```matlab
-📁 File Management Automation
+## 一、功能：
+### 以下是PowerShell在办公场景中的实用应用列表：
 
-Batch file renaming - Standardize naming conventions, e.g., "Contract_2025_001.pdf"
-File categorization - Automatically organize files into folders by date or type
-Duplicate file detection - Clean up duplicate documents and images
-Folder structure creation - Quickly create project folder templates
-Large file identification - Find and clean up space-consuming files
+``` matlab
+📁 文件管理自动化
 
-📊 Data Processing and Reporting
+批量重命名文件 - 统一命名规范，如"合同_2025_001.pdf"
+文件分类整理 - 按日期、类型自动分文件夹
+查找重复文件 - 清理重复的文档和图片
+文件夹结构创建 - 快速创建项目文件夹模板
+大文件查找 - 找出占用空间大的文件进行清理
 
-Batch Excel data processing - Merge multiple Excel files
-CSV file conversion - Format conversion and data cleaning
-File statistics reports - Generate reports on file count and size
-Log analysis - Extract key information and generate reports
-Backup verification - Check backup file integrity
+📊 数据处理和报表
 
-📧 Office Automation
+Excel数据批量处理 - 合并多个Excel文件
+CSV文件转换 - 格式转换和数据清洗
+文件统计报告 - 生成文件数量、大小统计
+日志分析 - 提取关键信息生成报告
+数据备份验证 - 检查备份文件完整性
 
-Batch email attachment download - Extract attachments from Outlook
-Batch document format conversion - Word to PDF, image format conversion
-Print job management - Batch document printing
-Shortcut creation - Create desktop shortcuts for frequently used folders
-Software installation check - Verify office software versions and updates
+📧 办公自动化
 
-🔍 Information Collection and Monitoring
+邮件附件批量下载 - 从Outlook提取附件
+文档格式批量转换 - Word转PDF、图片格式转换
+打印任务管理 - 批量打印文档
+快捷方式批量创建 - 为常用文件夹创建桌面快捷方式
+软件安装检查 - 检查办公软件版本和更新
 
-Network connection monitoring - Check office network status
-System performance monitoring - Monitor computer operation status
-Disk space alerts - Automatic notifications when space is low
-File change monitoring - Monitor changes in important folders
-Device status check - Printer, network device status
+🔍 信息收集和监控
 
-📅 Time and Task Management
+网络连接监控 - 检查办公网络状态
+系统性能监控 - 监控电脑运行状态
+磁盘空间警报 - 空间不足时自动提醒
+文件变更监控 - 监控重要文件夹的变化
+设备状态检查 - 打印机、网络设备状态
 
-Scheduled reminders - Meeting and deadline reminders
-Work log generation - Automatically record daily file operations
-Scheduled task execution - Timed backups, cleanup operations
-Attendance assistance - Record startup/shutdown times
-Project progress tracking - File modification time statistics
+📅 时间和任务管理
 
-🛠️ System Maintenance
+定时提醒 - 会议、截止日期提醒
+工作日志生成 - 自动记录每日文件操作
+任务计划执行 - 定时备份、清理等操作
+考勤辅助 - 记录开关机时间
+项目进度跟踪 - 文件修改时间统计
 
-Temporary file cleanup - Regularly clear system junk
-Software uninstallation - Batch remove unnecessary programs
-Registry cleanup - Remove invalid registry entries
-Startup item management - Optimize boot speed
-System information collection - Generate computer configuration reports
+🛠️ 系统维护
 
-📋 Document and Content Processing
+临时文件清理 - 定期清理系统垃圾
+软件卸载 - 批量卸载不需要的程序
+注册表清理 - 清理无效注册表项
+启动项管理 - 优化开机启动速度
+系统信息收集 - 生成电脑配置报告
 
-Document content search - Search for keywords across multiple documents
-Batch image processing - Compression, resizing, watermarking
-Text extraction - Extract text from PDFs and images
-Template application - Apply document templates in bulk
-Version control - Document version management and comparison
+📋 文档和内容处理
 
-🔐 Security and Compliance
+文档内容搜索 - 在多个文档中搜索关键词
+图片批处理 - 压缩、调整尺寸、水印添加
+文本提取 - 从PDF、图片中提取文字
+模板应用 - 批量应用文档模板
+版本控制 - 文档版本管理和比较
 
-File permission management - Batch set file access permissions
-Sensitive information check - Scan documents for sensitive data
-Password generation - Generate secure passwords
-Encrypted file backup - Secure backup of important files
-Access log analysis - Analyze file access records
+🔐 安全和合规
 
-📈 Efficiency Tools
+文件权限管理 - 批量设置文件访问权限
+敏感信息检查 - 扫描文档中的敏感数据
+密码生成 - 生成安全密码
+文件加密备份 - 重要文件的安全备份
+访问日志分析 - 分析文件访问记录
 
-Quick launch menu - Create startup scripts for common programs
-Work environment configuration - One-click desktop layout setup
-Batch operation templates - Save frequent operations as scripts
-Data validation - Batch verify data formats and integrity
-Automated report generation - Generate regular statistical reports
+📈 效率提升工具
 
-These scenarios can significantly improve office efficiency, reduce repetitive tasks, and allow staff to focus on more valuable work. Which scenario interests you most? I can demonstrate specific implementation methods.
+快速启动菜单 - 创建常用程序启动脚本
+工作环境配置 - 一键配置工作桌面布局
+批量操作模板 - 保存常用操作为脚本
+数据验证 - 批量验证数据格式和完整性
+报告自动生成 - 定期生成各类统计报告
 
+这些场景都能显著提高办公效率，减少重复性工作，让文员可以专注于更有价值的任务。你对哪个场景最感兴趣？我可以详细展示具体的实现方法。
 ```
+---
 
-## II. Scenarios:
-### With PowerShell tools, you can accomplish many interesting and practical tasks! Here are some engaging application scenarios:
+## 二、场景：
+### 通过PowerShell工具，你可以做很多有趣和实用的事情！以下是一些有趣的应用场景：
 
-System Administration and Monitoring
+``` matlab
+通过PowerShell工具，你可以做很多有趣和实用的事情！以下是一些有趣的应用场景：
+系统管理和监控
 
-Real-time CPU, memory, and disk usage monitoring
-View and manage running processes and services
-Monitor network connection status and traffic
-Check system uptime and operational status
-Manage Windows firewall rules
+实时监控CPU、内存、磁盘使用情况
+查看和管理正在运行的进程和服务
+监控网络连接状态和流量
+检查系统启动时间和运行状态
+管理Windows防火墙规则
 
-File and Data Processing
+文件和数据处理
 
-Batch rename files and folders
-Find duplicate files and free up disk space
-Batch process image/document properties
-Create file backup and sync scripts
-Analyze folder sizes and file distribution statistics
+批量重命名文件和文件夹
+查找重复文件并清理磁盘空间
+批量处理图片、文档等文件属性
+创建文件备份和同步脚本
+分析文件夹大小和文件分布统计
 
-Network and Security
+网络和安全
 
-Scan devices on local network
-Check open ports and network services
-Monitor network latency and connection quality
-Retrieve WiFi passwords and network configurations
-Check system security update status
+扫描本地网络中的设备
+检查开放端口和网络服务
+监控网络延迟和连接质量
+获取WiFi密码和网络配置
+检查系统安全更新状态
 
-Automation Tasks
+自动化任务
 
-Scheduled cleanup of temporary files and cache
-Automated software installation and configuration
-Batch create user accounts and set permissions
-Automatic backup of important files to specified locations
-Scheduled system status reports
+定时清理临时文件和缓存
+自动化软件安装和配置
+批量创建用户账户和权限设置
+自动备份重要文件到指定位置
+定时发送系统状态报告
 
-Entertainment Features
+趣味功能
 
-Create ASCII art and text graphics
-Generate random passwords and UUIDs
-Play system sounds or text-to-speech
-Control system volume and power settings
-Create desktop wallpaper slideshows
+创建ASCII艺术和文字画
+生成随机密码和UUID
+播放系统声音或文字转语音
+控制系统音量和电源设置
+创建桌面壁纸幻灯片
 
-Development Assistance
+开发辅助
 
-Batch code file formatting
-Check port usage and service status
-Manage environment variables and path settings
-Quickly set up local testing environments
-Monitor file changes and trigger operations
+批量处理代码文件格式化
+检查端口占用和服务状态
+管理环境变量和路径设置
+快速搭建本地测试环境
+监控文件变化并触发操作
 
-Data Analysis
+数据分析
 
-Analyze log files and error reports
-Statistics on file types and size distribution
-Monitor system performance trends
-Generate reports in various formats
-Process CSV and JSON data
+分析日志文件和错误报告
+统计文件类型和大小分布
+监控系统性能趋势
+生成各种格式的报告
+处理CSV和JSON数据
 
-All these can be achieved through PowerShell, both practical and fun! Which aspect interests you? I can demonstrate some functionalities.
+这些都可以通过PowerShell实现，既实用又有趣！你对哪个方面比较感兴趣？我可以帮你实际演示一些功能。
+```
+---
 
-## III. Environment:
-### Install Python environment (recommended 3.11 or above). Press Win+R, open cmd and enter:
-```bash
+## 三、环境：
+### 安装好Python环境，建议3.11或以上。窗口键+R，打开cmd命令输入：
+``` bash
 pip install mcp[cli]
 ```
-### After installing the MCP SDK tool, the following return value will appear:
-```matlab
-C:\Users\alphaorionis>pip install mcp[cli]
+安装好MCP的这个SDK工具后会出现以下返回值：
+``` matlab
+C:\Users\alphaorionis>pip install "mcp[cli]"
 
-# Return value below:
+
+#下面是返回值：
 
 Defaulting to user installation because normal site-packages is not writeable
 Collecting mcp[cli]
@@ -244,53 +250,54 @@ Installing collected packages: typing-inspection, shellingham, python-dotenv, py
 Successfully installed annotated-types-0.7.0 anyio-4.9.0 click-8.1.8 colorama-0.4.6 httpcore-1.0.8 httpx-0.28.1 httpx-sse-0.4.0 markdown-it-py-3.0.0 mcp-1.6.0 mdurl-0.1.2 pydantic-2.11.3 pydantic-core-2.33.1 pydantic-settings-2.9.1 pygments-2.19.1 python-dotenv-1.1.0 rich-14.0.0 shellingham-1.5.4 sse-starlette-2.2.1 starlette-0.46.2 typer-0.15.2 typing-inspection-0.4.0 uvicorn-0.34.2
 
 C:\Users\alphaorionis>
+
 ```
-The above return value indicates successful installation.
 
-After configuration, open a new CMD and enter mcp to verify functionality.
+返回以上信息，代表安装成功。
 
-The code environment setup is now complete.
+配置好后，此时需要新开一个CMD，输入MCP验证是否生效。
 
-## IV. JSON Configuration:
-### JSON configuration file content:
-Note: Modify the file path accordingly.
-Can be used with Claude, cursor, VSCode+Cline, or CherryStudio application.
-```bash
+代码环境搭建完成。
+
+## 四、配置json文件：
+### 配置json文件内容如下：
+注意修改文件路径。
+可以通过Claude调用，也可以用cursor，或者VScode+Cline，或者CherryStudio应用。
+
+``` bash
+
 {
   "mcpServers": {
     "powershell": {
       "command": "python",
       "args": [
-        "C:\\Users\\root\\Desktop\\MCP\\powershell.py" (Enter your own path here)
+        "C:\\Users\\root\\Desktop\\MCP\\powershell.py"（这里写你自己的路径）
       ]
     }
   }
 }
+
 ```
-Open Claude, the tool is now active.
 
-## Summary:
-PowerShell can essentially do anything you want with your computer.
+打开Claude，工具生效。
 
-Examples:
 
-Generate small reports based on files
+## 总结：
+powershell基本上可以对你的电脑做你任何想做的事情。
 
-What files are on the desktop? Organize XXX files to XXX folder
+如：
+根据文件做个小报告。
+桌面上有哪些文件？整理XXX文件到XXX文件夹。
+操作具体Excel、CSV，根据内容生成专业的HTML可视化分析报告。
+轻量级数据清洗。
+等等等等……
 
-Operate specific Excel/CSV files to generate professional HTML visualization reports
+数据可视化示例：
+可以用具体的表，在开源网站[vchart](https://visactor.io/vchart/)中选择一个视图样式，将视图右边的代码复制粘贴给AI，让AI模仿这个数据展示形式，结合你的数据，做出可视化。
+原理：让AI使用Powershell读取Excel，操作Excel。
 
-Lightweight data cleaning
+操作其他文档大同小异。
 
-Etc.
-
-Data Visualization Example:
-Use specific tables, select a visualization style from the open-source website [vchart](https://visactor.io/vchart/), copy the code from the right side of the visualization, and have AI mimic this display format using your data to create visualizations.
-Principle: Have AI use PowerShell to read Excel and manipulate Excel.
-
-Operations with other documents follow similar principles.
-
-Personally, I find the overall user experience more practical than filesystem-mcp.
-I use it on macOS through Windows in Parallels Desktop.
-Running in a Windows virtual machine prevents dangerous operations, ensuring the system can be restored within a minute through regular backups.
-
+个人认为，使用体验总体要比filesystem-mcp可用性高。
+我是放在Mac下通过PD带Windows使用的。
+放在虚拟机Windows时能防止一些危险操作，以保证定期备份系统随时可以在一分钟内恢复。
